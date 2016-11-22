@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="TheApp.FoodMenu" Title="FoodMenu">
+	<ContentPage.Content>
+		<StackLayout>
+			<Label Text="Your Menu" FontSize="20" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+			<Label FontSize="15" Text="Meetballs" />
+			<Label FontSize="12" Text="$12.00" HorizontalOptions="End" />
+			<Label FontSize="15" Text="Bruschetta [V] " />
+			<Label FontSize="12" Text="$16.00" HorizontalOptions="End" />
+			<Label FontSize="15" Text="Seasonal Vegetables [GF] [V]" />
+			<Label FontSize="12" Text="$8.20" HorizontalOptions="End" />
+			<Label FontSize="15" Text="Tasting Platter" />
+			<Label FontSize="12" Text="$6.00" HorizontalOptions="End" />
+			<Label FontSize="15" Text="Bowl of Wedges [V]" />
+			</StackLayout>
+	</ContentPage.Content>
+</ContentPage>

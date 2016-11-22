@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+			 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+		xmlns:local="clr-namespace:TheApp;assembly=TheApp"
+			 x:Class="TheApp.Directions"
+			 Title="Map">
+	<ContentPage.Content>
+		<StackLayout>
+			<Label Text="DIrections go here" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+			<Button Text="Hours" Clicked="HoursButtonClicked" VerticalOptions="CenterAndExpand" />
+			<local:theMap x:Name="theMap" MapType="Street" WidthRequest="{x:Static local:App.Width}" HeightRequest="{x:Static local:App.Height}" />
+
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,20 @@
+﻿<Properties StartupConfiguration="{83DF4BB6-D02F-43A3-A0B5-9B580D770C39}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Droid/MainActivity.cs">
+    <Files>
+      <File FileName="TheApp/Directions.xaml.cs" Line="24" Column="19" />
+      <File FileName="TheApp/Map/theMap.cs" Line="14" Column="1" />
+      <File FileName="TheApp/Map/thePin.cs" Line="10" Column="33" />
+      <File FileName="TheApp/DirectionCS.cs" Line="29" Column="19" />
+      <File FileName="Droid/MainActivity.cs" Line="32" Column="51" />
+      <File FileName="TheApp/FoodMenu.xaml.cs" Line="18" Column="3" />
+      <File FileName="TheApp/ReviewsCS.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.TheApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.D0E8E344-57AB-4F54-ACA7-9F81772C83C3" />
+  <MultiItemStartupConfigurations />
+</Properties>
