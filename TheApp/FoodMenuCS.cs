@@ -10,6 +10,7 @@ namespace TheApp
 	{
 		public FoodMenuCS()
 		{
+			
 			Title = "Your Menu";
 			Content = new StackLayout
 			{
@@ -17,10 +18,14 @@ namespace TheApp
 					new Label {
 						Text = "The menu goes here",
 						HorizontalOptions = LayoutOptions.Center,
-						VerticalOptions = LayoutOptions.CenterAndExpand
+						VerticalOptions = LayoutOptions.CenterAndExpand,
+						TextColor=Color.FromHex("#92CD00")
+
 					}
 				}
 			};
+
+
 		}
 	}
 }

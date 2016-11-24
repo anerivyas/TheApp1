@@ -12,6 +12,7 @@ namespace TheApp
 		{
 			InitializeComponent();
 
+
 			var pin = new thePin
 			{
 				Pin = new Pin
@@ -19,9 +20,11 @@ namespace TheApp
 					Type = PinType.Place,
 					Position = new Position(37.79752, -122.40183),
 					Label = "Fabrikam Food Restaurant",
-					Address = "8070 Redmond, Washington, USA"
+					Address = "8070 Redmond, Washington, USA",
+
 				},
-				id = "Xamarin"
+				id = "Xamarin",
+				Url = "http://xamarin.com/about/"
 				};
 
 			theMap.thePin = new List<thePin> { pin };

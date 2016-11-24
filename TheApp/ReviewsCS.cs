@@ -1,6 +1,7 @@
 ﻿using System;
-
+using System.Collections.Generic;
 using Xamarin.Forms;
+using Xamarin.Forms.Maps;
 
 namespace TheApp
 {
@@ -8,18 +9,10 @@ namespace TheApp
 	{
 		public ReviewsCS()
 		{
-			Title = "Reviews";
-			Content = new StackLayout
-			{
-				Children = {
-					new Label {
-						Text = "Reviews go here of all the customers",
-						HorizontalOptions = LayoutOptions.Center,
-						VerticalOptions = LayoutOptions.CenterAndExpand
-					}
-				}
-			};
+
+
+
+		}
 		}
 	}
-}
 

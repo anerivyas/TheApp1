@@ -26,7 +26,8 @@ namespace TheApp
 					Label = "Xamarin San Francisco Office",
 					Address = "394 Pacific Ave, San Francisco CA"
 				},
-				id = "Xamarin"
+				id = "Xamarin",
+				Url = "http://xamarin.com/about/"
 			};
 
 			map.thePin = new List<thePin> { pin };

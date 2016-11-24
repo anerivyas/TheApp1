@@ -6,7 +6,9 @@
 			 Title="Map">
 	<ContentPage.Content>
 		<StackLayout>
-			<Label Text="DIrections go here" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+			<Label Text="Here is the location for Fabrikam Food. " TextColor="#92CD00" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+			<Label Text="Press pin to see address" FontSize="12" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+
 			<Button Text="Hours" Clicked="HoursButtonClicked" VerticalOptions="CenterAndExpand" />
 			<local:theMap x:Name="theMap" MapType="Street" WidthRequest="{x:Static local:App.Width}" HeightRequest="{x:Static local:App.Height}" />
 
